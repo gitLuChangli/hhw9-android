@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#ffffff"
+    android:elevation="2dp"
+    android:gravity="center_vertical|right"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="top"
+        android:text="@string/text_view_kill"
+        android:textColor="@color/colorDeep"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_view_kill_pwd" />
+
+        <EditText
+            android:id="@+id/edit_text_kill_pwd"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="00 00 00 00"
+            android:textColor="@color/colorNormal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_kill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_kill"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

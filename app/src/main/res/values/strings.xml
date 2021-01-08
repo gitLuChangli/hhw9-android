@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">手持机</string>
+
+    <string name="text_view_bound">已配对设备</string>
+    <string name="text_view_search">新设备</string>
+    <string name="activity_title_search">发现设备</string>
+    <string name="bt_bond_ing">绑定中...</string>
+    <string name="action_search">搜索</string>
+
+    <string name="tab_uhf">超高频</string>
+    <string name="tab_barcode">条码</string>
+    <string name="tab_about">关于</string>
+    <string name="tab_inv">盘存</string>
+    <string name="tab_settings">射频参数</string>
+    <string name="tab_access">标签操作</string>
+
+    <string name="button_inventory_once">盘存一次</string>
+    <string name="button_inventory">连续盘存</string>
+    <string name="button_stop">停止盘存</string>
+
+    <string name="text_view_barcode">条码</string>
+    <string name="text_view_count">计数</string>
+    <string name="button_scan">扫码</string>
+
+
+    <string name="dialog_connect">手持机连接中，请稍候...</string>
+    <string name="dialog_title">提示</string>
+    <string name="msg_reconnect">手持机已断开。</string>
+    <string name="msg_connect_failed">连接手持机失败。</string>
+    <string name="dialog_button_cancel">不用</string>
+    <string name="dialog_button_reconnect">重连</string>
+    <string name="msg_client_lost">客户端已断开连接</string>
+
+    <string name="msg_client_connected">客户端已连接</string>
+    <string name="upgrade_success">升级成功</string>
+    <string name="upgrade_failed">升级失败</string>
+
+    <string name="text_view_power">输出功率</string>
+    <string name="button_get">获取</string>
+    <string name="button_set">设置</string>
+    <string name="text_view_selected">已选定标签</string>
+    <string name="hint_selected_not">未选定标签</string>
+    <string name="button_clear">清除</string>
+    <string name="button_read">读标签</string>
+    <string name="button_write">写标签</string>
+    <string name="text_view_access">读写标签</string>
+    <string name="text_view_bank">存储区域</string>
+    <string name="text_view_pwd">访问密码（hex）</string>
+    <string name="text_view_start">起始地址（word）</string>
+    <string name="text_view_length">数据长度（word）</string>
+
+    <string-array name="array_bank">
+        <item>
+            密码区
+        </item>
+        <item>
+            EPC区
+        </item>
+        <item>
+            TID区
+        </item>
+        <item>
+            USER区
+        </item>
+    </string-array>
+
+    <string name="text_view_lock">设置锁定状态</string>
+    <string name="text_view_lock_area">锁卡区域</string>
+    <string name="text_view_lock_action">锁卡动作</string>
+    <string name="text_view_lock_pwd">锁定口令（hex）</string>
+    <string name="button_lock">锁定</string>
+
+    <string-array name="array_lock_area">
+        <item>
+            访问密码区
+        </item>
+        <item>
+            灭活密码区
+        </item>
+        <item>
+            EPC区
+        </item>
+        <item>
+            TID区
+        </item>
+        <item>
+            USER区
+        </item>
+    </string-array>
+
+    <string-array name="array_lock_action">
+        <item>
+            开放
+        </item>
+        <item>
+            锁定
+        </item>
+        <item>
+            永久开放
+        </item>
+        <item>
+            永久锁定
+        </item>
+    </string-array>
+    <string name="text_view_kill">灭活标签</string>
+    <string name="text_view_kill_pwd">灭活口令（hex）</string>
+    <string name="button_kill">灭活</string>
+
+
+    <string-array name="array_about">
+        <item>
+            手持机固件
+        </item>
+        <item>
+            超高频固件
+        </item>
+        <item>
+            手持机软件
+        </item>
+        <item>
+            蓝牙地址
+        </item>
+        <item>
+            剩余电量
+        </item>
+    </string-array>
+
+
+    <string name="toast_get_failed">获取失败</string>
+    <string name="toast_get_success">获取成功</string>
+    <string name="toast_set_failed">设置失败</string>
+    <string name="toast_set_success">设置成功</string>
+    <string name="toast_access_error">访问口令错误</string>
+    <string name="toast_start_error">起始地址错误</string>
+    <string name="toast_length_error">数据长度错误</string>
+    <string name="toast_read_success">读取成功</string>
+    <string name="toast_read_failed">读取失败</string>
+    <string name="toast_write_success">写标签成功</string>
+    <string name="toast_write_failed">写标签失败</string>
+    <string name="toast_lock_success">锁定成功</string>
+    <string name="toast_lock_failed">锁定失败</string>
+    <string name="toast_kill_error">灭活口令错误</string>
+    <string name="toast_kill_success">灭活成功</string>
+    <string name="toast_kill_failed">灭活失败</string>
+
+    <string name="button_search">发现新设备</string>
+    <string name="button_reconnect">重新连接</string>
+
+    <string name="text_view_unique">个数 : %1$d </string>
+    <string name="text_view_speed">速度 : %1$d 次/秒</string>
+
+    <string-array name="array_select">
+        <item>
+            选定
+        </item>
+        <item>
+            取消选定
+        </item>
+    </string-array>
+
+    <string name="toast_select">选定成功</string>
+    <string name="toast_select_failed">选定失败</string>
+    <string name="toast_deselect">取消成功</string>
+    <string name="toast_deselect_failed">取消失败</string>
+
+    <string name="text_view_wait">请稍候...</string>
+    <string name="toast_disconnect">手持机通讯故障</string>
+    <string name="dialog_handset_error">通讯异常，手持机无法使用。</string>
+    <string name="dialog_note">提示</string>
+    <string name="dialog_button_ok">确定</string>
+    <string name="toast_inv_error">盘存错误：%1$d</string>
+    <string name="info_battery_left">剩余电量</string>
+    <string name="button_deselect">取消选定</string>
+
+    <string name="msg_connect_before">连接编号为%1$s的手持机，还是发现新的设备？</string>
+    <string name="dialog_button_connect">连接</string>
+
+    <string name="text_view_region">地区</string>
+    <string name="text_view_channel">信道</string>
+    <string name="text_auto_hf">自动跳频</string>
+    <string name="text_view_demodulator">通用设置</string>
+    <string name="button_set_demodulator">设置灵敏度</string>
+
+    <string-array name="array_demodulator">
+        <item>极低</item>
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+
+    <string-array name="array_region">
+        <item>中国2</item>
+        <item>中国1</item>
+        <item>美国</item>
+        <item>欧洲</item>
+        <item>韩国</item>
+    </string-array>
+
+    <string name="button_save_parameters">保存参数</string>
+    <string name="toast_key_up">%1$d ↑</string>
+    <string name="toast_key_down">%1$d ↓</string>
+    <string name="msg_sleep">手持机已进入休眠模式</string>
+    <string name="action_ok">确定</string>
+
+    <string name="text_view_auto_connect">APP启动自动连接</string>
+    <string name="message_open_gps">开启定位服务或使用位置信息才能搜索到手持机</string>
+
+</resources>
